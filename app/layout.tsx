@@ -1,6 +1,5 @@
 // app/layout.tsx
 import type { Metadata } from "next";
-import { CssBaseline } from "@mui/material";
 import ThemeRegistry from "./theme-registry";
 
 export const metadata: Metadata = { title: "LinkedIn UI (MUI)" };
@@ -8,9 +7,8 @@ export const metadata: Metadata = { title: "LinkedIn UI (MUI)" };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
+      <body style={{ margin: 0, padding: 0 }}>
         <ThemeRegistry>
-          <CssBaseline />
           {children}
         </ThemeRegistry>
       </body>
