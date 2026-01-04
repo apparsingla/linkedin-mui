@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LinkedIn Home Page – MUI + Next.js
 
-## Getting Started
+This project implements a **LinkedIn-like home feed page** using **Next.js** and **Material UI (MUI)** with the **default MUI theme**.
 
-First, run the development server:
+## Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+* **Next.js (App Router)**
+* **Material UI (MUI)**
+* TypeScript
+
+## Requirements Followed
+
+* ✅ Used **default MUI theme**
+* ✅ No custom colors, borders, shadows, or effects
+* ✅ Only MUI components used (Grid, Card, Typography, etc.)
+* ✅ Layout created using MUI Grid
+* ✅ Typography and spacing used as required
+* ✅ Responsive **3-column layout**
+
+  * Left: Profile section
+  * Center: Feed posts
+  * Right: Suggestions panel
+
+## Layout
+
+```
+| Left Sidebar | Main Feed | Right Sidebar |
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Run Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open: `http://localhost:3000`
 
-## Learn More
+## Notes
 
-To learn more about Next.js, take a look at the following resources:
+* The focus of this task is **component usage, layout structure, and clarity**, not visual customization.
+* The UI intentionally sticks to **Material UI defaults** as per the task instructions.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built for screening purposes using clean, readable, and maintainable code.
